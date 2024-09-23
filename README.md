@@ -47,7 +47,7 @@ contract MyToken {
 }
 ```
 
-
+# Procedure:
 Open the "Solidity Compiler" pane by clicking on the "solidity" icon located in the left sidebar.
 Make sure you have selected the correct compiler version (0.8.18).
 Select "Compile MyToken.sol" from the menu.
