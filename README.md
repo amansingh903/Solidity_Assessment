@@ -1,9 +1,9 @@
-# Project Title:
+# Project Title :
 This Solidity program is to create a token  program that demonstrates functionality of the Solidity programming language. 
 The purpose of this program is to serve as a starting point for those who are new to Solidity and want to get a feel for how it works.
 
 
-**Description**:
+# Description :
 The contract will have public variables that store the details about your coin (Token Name, Token Abbrv., Total Supply)
 The contract will have a mapping of addresses to balances (address => uint)
 it will have a mint function that takes two parameters: an address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
@@ -11,13 +11,13 @@ This contract will have a burn function, which works the opposite of the mint fu
 Lastly, the burn function should have conditionals to make sure the balance of account is greater than or equal to the amount that is supposed to be burned.
 
 
-# Getting Started:
+# Getting Started :
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension.
 (e.g., MyTokensol).Copy and paste the following code into the file:
 
-# Code:
+# Code :
 ```
 pragma solidity 0.8.18;
 
@@ -47,7 +47,7 @@ contract MyToken {
 }
 ```
 
-# Procedure:
+# Procedure :
 Open the "Solidity Compiler" pane by clicking on the "solidity" icon located in the left sidebar.
 Make sure you have selected the correct compiler version (0.8.18).
 Select "Compile MyToken.sol" from the menu.
